@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42f5e9"/><stop offset=".55" stop-color="#6e7cff"/><stop offset="1" stop-color="#fb4ce0"/></linearGradient>
+  <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#42f5e9"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="600" height="600" rx="44" fill="#080b12"/>
+<circle cx="300" cy="235" r="173" fill="none" stroke="#42f5e9" stroke-opacity=".10" stroke-width="22"/>
+<circle cx="300" cy="235" r="158" fill="#0c1320" stroke="url(#ring)" stroke-width="8"/>
+<path d="M193 342 L278 126 L327 126 L412 342 L359 342 L337 283 L266 283 L246 342 Z M282 239 L321 239 L301 184 Z" fill="url(#mark)" filter="url(#glow)"/>
+<path d="M310 312 L358 264 L358 293 L397 254 L397 283 L358 322 L358 349 Z" fill="#fb4ce0"/>
+<text x="300" y="445" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="51" font-weight="800" letter-spacing="6" fill="#f4f7fb">ALI RAZA</text>
+<text x="300" y="484" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="4" fill="#42f5e9">FREELANCER • WEB DEVELOPER</text>
+<path d="M130 516 H470" stroke="url(#ring)" stroke-width="2" opacity=".8"/>
+</svg>
